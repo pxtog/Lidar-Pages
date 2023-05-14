@@ -67,6 +67,7 @@
 			material.pointSizeType = Potree.PointSizeType.ADAPTIVE;
 			material.shape = Potree.PointShape.SQUARE;
 			material.activeAttributeName = "classification";
+			material.classificationRange = [0,10];
 			
 			scene.addPointCloud(pointcloud);
 			
