@@ -55,6 +55,8 @@
 			$("#menu_clipping").next().show();
 			viewer.toggleSidebar();
 		});
+		
+		
 
 		Potree.loadPointCloud("./pointclouds/Whanganui/metadata.json", "Whanganui", e => {
 			let scene = viewer.scene;
@@ -64,12 +66,11 @@
 			material.size = 1;
 			material.pointSizeType = Potree.PointSizeType.ADAPTIVE;
 			material.shape = Potree.PointShape.SQUARE;
-			// material.activeAttributeName = "rgba"; 
-			// Patricio Guzman    
+			material.activeAttributeName = "rgba";
+			
 			scene.addPointCloud(pointcloud);
 			
 			viewer.fitToScreen();
-
 		});
 
 		
