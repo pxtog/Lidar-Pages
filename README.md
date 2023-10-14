@@ -1,6 +1,6 @@
 # Lidar-Pages
 
-Sitio Web para desplegar ejemplos de parcelas visualizadas con tecnologia #LIDAR generado por potree.org 
+Proyecto para desplegar sitios web con ejemplos de parcelas visualizadas con tecnologia #LIDAR generado por potree.org 
 
 Visitar: 
 
